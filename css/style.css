@@ -38,13 +38,20 @@ header{
 }
 
 
-main{
+
+.trailer-box{
     display: flex;
+}
+
+.title-welcome{
+    padding-top: 10px;
+    color: white;
+    text-align: center;
 }
 
 .box-1{
     position: relative;
-    height: 480px;
+    height: 1080px;
     width: 1080px;
 }
 
@@ -57,21 +64,71 @@ main{
     opacity: 0;
 }
 
+.news-box{
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+}
+
+.new{
+    background-color: rgb(39,39,38);
+    color: white;
+    padding: 1em;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.new img{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;}
+
+.new-title{
+    font-size: 25px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.new-desc{
+    font-size: 18px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* .news-box{
+    background-color: rgb(39,39,38);
+    padding: 2em;
+    margin: 2em;
+    display: flex;
+}
+
+.news{
+    background-color: black;
+    color: white;
+    padding: 1em;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.news-box h1{
+    color: white;
+    margin-left: 2em;
+    font-size: 40px;
+}
+
+.news-box img{
+    height: 400px;
+    width: 400px;
+} */
+
+
 /* .box-1:hover{
     transform: scale(1.1);
 } */
 
-.trailer{
-    display: flex;
-    justify-content: center;
-}
-
-.trailer-images{
-    max-width: 90%;
-}
-
-.trailer-images:hover{
-    max-width: 100%;
+h2{
+    color: white;
 }
 
 a{
@@ -93,4 +150,8 @@ a:hover {
 
 a:active {
   text-decoration: none;
+}
+
+footer p{
+    color: white;
 }
