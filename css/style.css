@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+@font-face {
+    font-family: myFont;
+    src: url(rwby_style.ttf);
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: left;
+    background-color: rgb(19,18,22);
+    padding-left: 30px;
+    height: 70px;
+}
+
+.nav-items{
+    display: flex;
+    padding-left: 20px;
+    font-family: myFont;
+    list-style: none;
+}
+
+.nav-items li{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.logo img{
+    height: 50px;
+    padding-top: 10px;
+}
+
+.logo .logo-text{
+    padding-top: 10px;
+}
+
+
+main{
+    display: flex;
+}
+
+.box-1{
+    position: relative;
+    height: 480px;
+    width: 1080px;
+}
+
+.box-1 img{
+    position: absolute;
+    transition: 200ms;
+}
+
+.box-1 img:hover{
+    opacity: 0;
+}
+
+/* .box-1:hover{
+    transform: scale(1.1);
+} */
+
+.trailer{
+    display: flex;
+    justify-content: center;
+}
+
+.trailer-images{
+    max-width: 90%;
+}
+
+.trailer-images:hover{
+    max-width: 100%;
+}
+
+a{
+    color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: gainsboro;
+}
+
+a:active {
+  text-decoration: none;
+}
